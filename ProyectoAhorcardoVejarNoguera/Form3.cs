@@ -48,6 +48,11 @@ namespace ProyectoAhorcardoVejarNoguera
             form4.Show();
             this.Hide();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
