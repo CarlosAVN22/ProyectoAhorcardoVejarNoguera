@@ -73,6 +73,16 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ahorcado {
+            get {
+                object obj = ResourceManager.GetObject("Ahorcado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ahorcado1 {
             get {
                 object obj = ResourceManager.GetObject("ahorcado1", resourceCulture);
@@ -166,6 +176,36 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         internal static System.Drawing.Bitmap ahorcado9 {
             get {
                 object obj = ResourceManager.GetObject("ahorcado9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chess {
+            get {
+                object obj = ResourceManager.GetObject("chess", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chess1 {
+            get {
+                object obj = ResourceManager.GetObject("chess1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chess11 {
+            get {
+                object obj = ResourceManager.GetObject("chess11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

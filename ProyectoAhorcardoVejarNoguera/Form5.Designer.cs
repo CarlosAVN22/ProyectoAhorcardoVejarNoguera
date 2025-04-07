@@ -46,10 +46,11 @@
             // 
             // picAhorcado
             // 
-            this.picAhorcado.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.ahorcado9;
-            this.picAhorcado.Location = new System.Drawing.Point(90, 167);
+            this.picAhorcado.BackColor = System.Drawing.Color.Transparent;
+            this.picAhorcado.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Ahorcado;
+            this.picAhorcado.Location = new System.Drawing.Point(50, 150);
             this.picAhorcado.Name = "picAhorcado";
-            this.picAhorcado.Size = new System.Drawing.Size(91, 77);
+            this.picAhorcado.Size = new System.Drawing.Size(150, 150);
             this.picAhorcado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAhorcado.TabIndex = 1;
             this.picAhorcado.TabStop = false;
