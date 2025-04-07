@@ -34,6 +34,7 @@
             this.PicSnake = new System.Windows.Forms.PictureBox();
             this.PicMonopoly = new System.Windows.Forms.PictureBox();
             this.PicUno = new System.Windows.Forms.PictureBox();
+            this.btnRegresarLogin = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picAhorcado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicChess)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicSnake)).BeginInit();
@@ -108,12 +109,23 @@
             this.PicUno.TabIndex = 5;
             this.PicUno.TabStop = false;
             // 
+            // btnRegresarLogin
+            // 
+            this.btnRegresarLogin.Location = new System.Drawing.Point(967, 428);
+            this.btnRegresarLogin.Name = "btnRegresarLogin";
+            this.btnRegresarLogin.Size = new System.Drawing.Size(130, 48);
+            this.btnRegresarLogin.TabIndex = 6;
+            this.btnRegresarLogin.Text = "Regresar";
+            this.btnRegresarLogin.UseVisualStyleBackColor = true;
+            this.btnRegresarLogin.Click += new System.EventHandler(this.btnRegresarLogin_Click);
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.ae508467_2673_43d5_9fb9_53570ac3a51d;
             this.ClientSize = new System.Drawing.Size(1175, 519);
+            this.Controls.Add(this.btnRegresarLogin);
             this.Controls.Add(this.PicUno);
             this.Controls.Add(this.PicMonopoly);
             this.Controls.Add(this.PicSnake);
@@ -140,5 +152,6 @@
         private System.Windows.Forms.PictureBox PicSnake;
         private System.Windows.Forms.PictureBox PicMonopoly;
         private System.Windows.Forms.PictureBox PicUno;
+        private System.Windows.Forms.Button btnRegresarLogin;
     }
 }

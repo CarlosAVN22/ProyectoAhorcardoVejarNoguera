@@ -305,8 +305,8 @@ namespace ProyectoAhorcardoVejarNoguera
 
         private void btnInterfaz_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            form3.Show();
+            Form5 form5 = new Form5();
+            form5.Show();
             this.Hide();
         }
     }
