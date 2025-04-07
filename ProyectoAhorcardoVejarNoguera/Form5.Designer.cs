@@ -32,9 +32,13 @@
             this.picAhorcado = new System.Windows.Forms.PictureBox();
             this.PicChess = new System.Windows.Forms.PictureBox();
             this.PicSnake = new System.Windows.Forms.PictureBox();
+            this.PicMonopoly = new System.Windows.Forms.PictureBox();
+            this.PicUno = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picAhorcado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicChess)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicSnake)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicMonopoly)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicUno)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -82,12 +86,36 @@
             this.PicSnake.TabIndex = 3;
             this.PicSnake.TabStop = false;
             // 
+            // PicMonopoly
+            // 
+            this.PicMonopoly.BackColor = System.Drawing.Color.Transparent;
+            this.PicMonopoly.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.monopoly;
+            this.PicMonopoly.Location = new System.Drawing.Point(488, 150);
+            this.PicMonopoly.Name = "PicMonopoly";
+            this.PicMonopoly.Size = new System.Drawing.Size(150, 150);
+            this.PicMonopoly.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicMonopoly.TabIndex = 4;
+            this.PicMonopoly.TabStop = false;
+            // 
+            // PicUno
+            // 
+            this.PicUno.BackColor = System.Drawing.Color.Transparent;
+            this.PicUno.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Uno;
+            this.PicUno.Location = new System.Drawing.Point(635, 150);
+            this.PicUno.Name = "PicUno";
+            this.PicUno.Size = new System.Drawing.Size(150, 150);
+            this.PicUno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicUno.TabIndex = 5;
+            this.PicUno.TabStop = false;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.ae508467_2673_43d5_9fb9_53570ac3a51d;
             this.ClientSize = new System.Drawing.Size(1175, 519);
+            this.Controls.Add(this.PicUno);
+            this.Controls.Add(this.PicMonopoly);
             this.Controls.Add(this.PicSnake);
             this.Controls.Add(this.PicChess);
             this.Controls.Add(this.picAhorcado);
@@ -97,6 +125,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picAhorcado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicChess)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicSnake)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicMonopoly)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicUno)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -108,5 +138,7 @@
         private System.Windows.Forms.PictureBox picAhorcado;
         private System.Windows.Forms.PictureBox PicChess;
         private System.Windows.Forms.PictureBox PicSnake;
+        private System.Windows.Forms.PictureBox PicMonopoly;
+        private System.Windows.Forms.PictureBox PicUno;
     }
 }

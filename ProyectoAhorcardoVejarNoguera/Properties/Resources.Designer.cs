@@ -273,6 +273,16 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap monopoly {
+            get {
+                object obj = ResourceManager.GetObject("monopoly", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap salir {
             get {
                 object obj = ResourceManager.GetObject("salir", resourceCulture);
@@ -296,6 +306,16 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         internal static System.Drawing.Bitmap Snake {
             get {
                 object obj = ResourceManager.GetObject("Snake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Uno {
+            get {
+                object obj = ResourceManager.GetObject("Uno", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
