@@ -61,5 +61,12 @@ namespace ProyectoAhorcardoVejarNoguera
             pingpong.Show();
             this.Hide();
         }
+
+        private void PicChess_Click(object sender, EventArgs e)
+        {
+            Ajedrez ajedrez = new Ajedrez();
+            ajedrez.Show();
+            this.Hide();
+        }
     }
 }

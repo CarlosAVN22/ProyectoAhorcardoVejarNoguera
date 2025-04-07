@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ajedrez.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajedrez.Designer.cs">
+      <DependentUpon>Ajedrez.cs</DependentUpon>
+    </Compile>
     <Compile Include="cartas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ajedrez.resx">
+      <DependentUpon>Ajedrez.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cartas.resx">
       <DependentUpon>cartas.cs</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +247,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Poker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
