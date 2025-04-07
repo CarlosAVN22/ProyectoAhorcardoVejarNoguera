@@ -42,5 +42,17 @@ namespace ProyectoAhorcardoVejarNoguera
             form3.Show();
             this.Hide();
         }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cartaspic_Click(object sender, EventArgs e)
+        {
+            cartas cartas = new cartas();
+            cartas.Show();
+            this.Hide();
+        }
     }
 }

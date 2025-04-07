@@ -17,7 +17,8 @@ namespace ProyectoAhorcardoVejarNoguera
             public static Dictionary<string, string> ListaUsuarios = new Dictionary<string, string>()
         {
             { "CarlosVejar", "casa12345" },
-            { "Axel", "ct123" }
+            { "Axel", "ct123" },
+            { "chris", "123456" }
         };
 
             public static void RegistrarUsuario(string usuario, string contraseña)
