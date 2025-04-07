@@ -54,5 +54,12 @@ namespace ProyectoAhorcardoVejarNoguera
             cartas.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            pingpong pingpong = new pingpong();
+            pingpong.Show();
+            this.Hide();
+        }
     }
 }
