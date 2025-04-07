@@ -162,11 +162,11 @@
             // 
             // btnInterfaz
             // 
-            this.btnInterfaz.Location = new System.Drawing.Point(656, 12);
+            this.btnInterfaz.Location = new System.Drawing.Point(888, 539);
             this.btnInterfaz.Name = "btnInterfaz";
-            this.btnInterfaz.Size = new System.Drawing.Size(103, 31);
+            this.btnInterfaz.Size = new System.Drawing.Size(103, 63);
             this.btnInterfaz.TabIndex = 12;
-            this.btnInterfaz.Text = "Interfaz";
+            this.btnInterfaz.Text = "Salir";
             this.btnInterfaz.UseVisualStyleBackColor = true;
             this.btnInterfaz.Click += new System.EventHandler(this.btnInterfaz_Click);
             // 
