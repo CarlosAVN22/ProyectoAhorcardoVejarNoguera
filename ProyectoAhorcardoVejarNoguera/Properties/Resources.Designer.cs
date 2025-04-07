@@ -289,5 +289,15 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Snake {
+            get {
+                object obj = ResourceManager.GetObject("Snake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

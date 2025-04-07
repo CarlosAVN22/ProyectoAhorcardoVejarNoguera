@@ -30,7 +30,11 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.picAhorcado = new System.Windows.Forms.PictureBox();
+            this.PicChess = new System.Windows.Forms.PictureBox();
+            this.PicSnake = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picAhorcado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicChess)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicSnake)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -56,17 +60,43 @@
             this.picAhorcado.TabStop = false;
             this.picAhorcado.Click += new System.EventHandler(this.picAhorcado_Click);
             // 
+            // PicChess
+            // 
+            this.PicChess.BackColor = System.Drawing.Color.Transparent;
+            this.PicChess.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.chess11;
+            this.PicChess.Location = new System.Drawing.Point(197, 150);
+            this.PicChess.Name = "PicChess";
+            this.PicChess.Size = new System.Drawing.Size(150, 150);
+            this.PicChess.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicChess.TabIndex = 2;
+            this.PicChess.TabStop = false;
+            // 
+            // PicSnake
+            // 
+            this.PicSnake.BackColor = System.Drawing.Color.Transparent;
+            this.PicSnake.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Snake;
+            this.PicSnake.Location = new System.Drawing.Point(341, 150);
+            this.PicSnake.Name = "PicSnake";
+            this.PicSnake.Size = new System.Drawing.Size(150, 150);
+            this.PicSnake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicSnake.TabIndex = 3;
+            this.PicSnake.TabStop = false;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.ae508467_2673_43d5_9fb9_53570ac3a51d;
             this.ClientSize = new System.Drawing.Size(1175, 519);
+            this.Controls.Add(this.PicSnake);
+            this.Controls.Add(this.PicChess);
             this.Controls.Add(this.picAhorcado);
             this.Controls.Add(this.label1);
             this.Name = "Form5";
             this.Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)(this.picAhorcado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicChess)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicSnake)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -76,5 +106,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox picAhorcado;
+        private System.Windows.Forms.PictureBox PicChess;
+        private System.Windows.Forms.PictureBox PicSnake;
     }
 }
