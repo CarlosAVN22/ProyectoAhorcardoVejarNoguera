@@ -20,7 +20,7 @@ namespace ProyectoAhorcardoVejarNoguera
         private void Form2_Load(object sender, EventArgs e)
         {
            
-            string videoPath = @"HANGMAN.mp4"; 
+            string videoPath = @"Ahorcado.mp4"; 
 
             
             axWindowsMediaPlayer1.URL = videoPath; 
