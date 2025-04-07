@@ -37,6 +37,7 @@
             this.btnRegresarLogin = new System.Windows.Forms.Button();
             this.PicCartas = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PicTetris = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picAhorcado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicChess)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicSnake)).BeginInit();
@@ -44,6 +45,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicUno)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicCartas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicTetris)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -52,7 +54,7 @@
             this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(414, 9);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.label1.Padding = new System.Windows.Forms.Padding(20);
             this.label1.Size = new System.Drawing.Size(173, 72);
             this.label1.TabIndex = 0;
             this.label1.Text = "Juegos ";
@@ -153,12 +155,25 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
+            // PicTetris
+            // 
+            this.PicTetris.BackColor = System.Drawing.Color.Transparent;
+            this.PicTetris.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.tetris;
+            this.PicTetris.Location = new System.Drawing.Point(488, 298);
+            this.PicTetris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PicTetris.Name = "PicTetris";
+            this.PicTetris.Size = new System.Drawing.Size(150, 150);
+            this.PicTetris.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicTetris.TabIndex = 9;
+            this.PicTetris.TabStop = false;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.ae508467_2673_43d5_9fb9_53570ac3a51d;
             this.ClientSize = new System.Drawing.Size(1174, 519);
+            this.Controls.Add(this.PicTetris);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.PicCartas);
             this.Controls.Add(this.btnRegresarLogin);
@@ -179,6 +194,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicUno)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicCartas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicTetris)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,5 +211,6 @@
         private System.Windows.Forms.Button btnRegresarLogin;
         private System.Windows.Forms.PictureBox PicCartas;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox PicTetris;
     }
 }
