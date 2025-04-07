@@ -16,5 +16,10 @@ namespace ProyectoAhorcardoVejarNoguera
         {
             InitializeComponent();
         }
+
+        private void pingpong_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

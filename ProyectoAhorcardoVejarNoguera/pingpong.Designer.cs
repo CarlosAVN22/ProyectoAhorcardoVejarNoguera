@@ -38,6 +38,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "pingpong";
             this.Text = "pingpong";
+            this.Load += new System.EventHandler(this.pingpong_Load);
             this.ResumeLayout(false);
 
         }
