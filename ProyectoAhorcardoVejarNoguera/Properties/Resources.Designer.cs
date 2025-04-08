@@ -293,9 +293,39 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PingPong {
+            get {
+                object obj = ResourceManager.GetObject("PingPong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Poker {
             get {
                 object obj = ResourceManager.GetObject("Poker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rompecabezas {
+            get {
+                object obj = ResourceManager.GetObject("Rompecabezas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rompecabezas2 {
+            get {
+                object obj = ResourceManager.GetObject("Rompecabezas2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,6 +356,16 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         internal static System.Drawing.Bitmap Snake {
             get {
                 object obj = ResourceManager.GetObject("Snake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sudoku {
+            get {
+                object obj = ResourceManager.GetObject("Sudoku", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

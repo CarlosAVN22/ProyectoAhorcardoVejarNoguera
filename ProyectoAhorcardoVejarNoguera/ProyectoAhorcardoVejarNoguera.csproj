@@ -254,5 +254,17 @@
   <ItemGroup>
     <None Include="Resources\tetris.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PingPong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sudoku.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rompecabezas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rompecabezas2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
