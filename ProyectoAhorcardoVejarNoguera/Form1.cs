@@ -311,5 +311,12 @@ namespace ProyectoAhorcardoVejarNoguera
             form5.Show();
             this.Hide();
         }
+
+        private void btnAbrirForm2_Click_1(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+        }
     }
 }

@@ -52,7 +52,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(414, 9);
+            this.label1.Location = new System.Drawing.Point(526, 9);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(20);
             this.label1.Size = new System.Drawing.Size(173, 72);
@@ -63,7 +63,7 @@
             // 
             this.picAhorcado.BackColor = System.Drawing.Color.Transparent;
             this.picAhorcado.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Ahorcado;
-            this.picAhorcado.Location = new System.Drawing.Point(50, 150);
+            this.picAhorcado.Location = new System.Drawing.Point(50, 101);
             this.picAhorcado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAhorcado.Name = "picAhorcado";
             this.picAhorcado.Size = new System.Drawing.Size(150, 150);
@@ -76,7 +76,7 @@
             // 
             this.PicChess.BackColor = System.Drawing.Color.Transparent;
             this.PicChess.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.chess11;
-            this.PicChess.Location = new System.Drawing.Point(197, 150);
+            this.PicChess.Location = new System.Drawing.Point(295, 101);
             this.PicChess.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicChess.Name = "PicChess";
             this.PicChess.Size = new System.Drawing.Size(150, 150);
@@ -89,7 +89,7 @@
             // 
             this.PicSnake.BackColor = System.Drawing.Color.Transparent;
             this.PicSnake.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Snake;
-            this.PicSnake.Location = new System.Drawing.Point(341, 150);
+            this.PicSnake.Location = new System.Drawing.Point(532, 101);
             this.PicSnake.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicSnake.Name = "PicSnake";
             this.PicSnake.Size = new System.Drawing.Size(150, 150);
@@ -101,7 +101,7 @@
             // 
             this.PicMonopoly.BackColor = System.Drawing.Color.Transparent;
             this.PicMonopoly.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.monopoly;
-            this.PicMonopoly.Location = new System.Drawing.Point(488, 150);
+            this.PicMonopoly.Location = new System.Drawing.Point(761, 101);
             this.PicMonopoly.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicMonopoly.Name = "PicMonopoly";
             this.PicMonopoly.Size = new System.Drawing.Size(150, 150);
@@ -113,7 +113,7 @@
             // 
             this.PicUno.BackColor = System.Drawing.Color.Transparent;
             this.PicUno.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Uno;
-            this.PicUno.Location = new System.Drawing.Point(634, 150);
+            this.PicUno.Location = new System.Drawing.Point(968, 101);
             this.PicUno.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicUno.Name = "PicUno";
             this.PicUno.Size = new System.Drawing.Size(150, 150);
@@ -123,7 +123,7 @@
             // 
             // btnRegresarLogin
             // 
-            this.btnRegresarLogin.Location = new System.Drawing.Point(968, 428);
+            this.btnRegresarLogin.Location = new System.Drawing.Point(1018, 519);
             this.btnRegresarLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegresarLogin.Name = "btnRegresarLogin";
             this.btnRegresarLogin.Size = new System.Drawing.Size(130, 48);
@@ -172,7 +172,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.ae508467_2673_43d5_9fb9_53570ac3a51d;
-            this.ClientSize = new System.Drawing.Size(1174, 519);
+            this.ClientSize = new System.Drawing.Size(1174, 588);
             this.Controls.Add(this.PicTetris);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.PicCartas);
