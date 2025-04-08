@@ -147,7 +147,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(220, 298);
+            this.pictureBox1.Location = new System.Drawing.Point(295, 298);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 150);
@@ -159,7 +159,7 @@
             // 
             this.PicTetris.BackColor = System.Drawing.Color.Transparent;
             this.PicTetris.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.tetris;
-            this.PicTetris.Location = new System.Drawing.Point(488, 298);
+            this.PicTetris.Location = new System.Drawing.Point(532, 298);
             this.PicTetris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicTetris.Name = "PicTetris";
             this.PicTetris.Size = new System.Drawing.Size(150, 150);
