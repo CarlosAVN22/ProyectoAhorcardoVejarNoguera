@@ -18,7 +18,10 @@ namespace ProyectoAhorcardoVejarNoguera
         {
             { "CarlosVejar", "casa12345" },
             { "Axel", "ct123" },
-            { "chris", "123456" }
+            { "chris", "123456" },
+            { "crice03","server" },
+            { "Jefer","j123" },
+            { "Joss","js25" }
         };
 
             public static void RegistrarUsuario(string usuario, string contraseña)

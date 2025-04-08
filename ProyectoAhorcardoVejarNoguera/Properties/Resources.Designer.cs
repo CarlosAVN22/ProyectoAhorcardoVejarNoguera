@@ -183,6 +183,26 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnstart_removebg {
+            get {
+                object obj = ResourceManager.GetObject("btnstart-removebg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnstart_removebg__1_ {
+            get {
+                object obj = ResourceManager.GetObject("btnstart-removebg (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ChatGPT_Image_7_abr_2025__11_29_17_p_m___1_ {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1)", resourceCulture);
@@ -316,6 +336,16 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         internal static System.Drawing.Bitmap fondo__1_ {
             get {
                 object obj = ResourceManager.GetObject("fondo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondoahorcado_jpeg {
+            get {
+                object obj = ResourceManager.GetObject("fondoahorcado.jpeg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

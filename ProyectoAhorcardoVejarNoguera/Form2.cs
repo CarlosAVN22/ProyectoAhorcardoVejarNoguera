@@ -19,11 +19,9 @@ namespace ProyectoAhorcardoVejarNoguera
 
         private void Form2_Load(object sender, EventArgs e)
         {
-           
-            string videoPath = @"HANGMAN.mp4"; 
 
             
-            axWindowsMediaPlayer1.URL = videoPath; 
+            axWindowsMediaPlayer1.URL = @"C:\Users\ASUS\Desktop\ahorcado.mp4"; 
             axWindowsMediaPlayer1.Ctlcontrols.play();
         }
 

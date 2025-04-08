@@ -77,7 +77,6 @@ namespace ProyectoAhorcardoVejarNoguera
 
             
             oportunidades = int.Parse(cmbIntentos.SelectedItem?.ToString() ?? "10"); 
-            btnInicioJuegoo.Image = Properties.Resources.Screenshot_2025_03_26_162758;
 
             palabras = new string[] { "barco", "campo", "diente", "rápido", "tierra", "fuego", "nube", "cactus", "fuerte", "pizarra",
                               "carro", "castillo", "pincel", "camello", "relampago", 
@@ -238,7 +237,10 @@ namespace ProyectoAhorcardoVejarNoguera
                     }
                     else
                     {
-                        Application.Exit(); 
+                        
+                        Form5 form5 = new Form5();
+                        form5.Show();
+                        this.Hide();
                     }
                 }
             }
@@ -309,6 +311,9 @@ namespace ProyectoAhorcardoVejarNoguera
             this.Hide();
         }
 
-       
+        private void btnAbrirForm2_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
