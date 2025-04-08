@@ -45,11 +45,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(116, 7);
+            this.label1.Location = new System.Drawing.Point(206, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(446, 56);
+            this.label1.Size = new System.Drawing.Size(304, 56);
             this.label1.TabIndex = 0;
-            this.label1.Text = "ACCESO RESTRINGIDO";
+            this.label1.Text = "INICAR SESION";
             this.label1.UseCompatibleTextRendering = true;
             // 
             // groupBox1
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Brown;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(711, 360);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);

@@ -43,6 +43,21 @@ namespace ProyectoAhorcardoVejarNoguera
             this.Hide();
         }
 
+        private void btnRegresarLogin_MouseEnter(object sender, EventArgs e)
+        {
+            btnRegresarLogin.Size = new Size(btnRegresarLogin.Width + 10, btnRegresarLogin.Height + 10);
+            btnRegresarLogin.BackColor = Color.Gold;
+            btnRegresarLogin.ForeColor = Color.Black;
+
+        }
+
+        private void btnRegresarLogin_MouseLeave(object sender, EventArgs e)
+        {
+            btnRegresarLogin.Size = new Size(btnRegresarLogin.Width - 10, btnRegresarLogin.Height - 10);
+            btnRegresarLogin.BackColor = Color.Black;
+            btnRegresarLogin.ForeColor = Color.White;
+        }
+
         private void Form5_Load(object sender, EventArgs e)
         {
 

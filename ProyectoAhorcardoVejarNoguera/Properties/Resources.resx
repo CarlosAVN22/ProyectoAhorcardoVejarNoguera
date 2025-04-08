@@ -127,11 +127,11 @@
   <data name="Screenshot 2025-03-26 162758" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2025-03-26 162758.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tetris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tetris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ahorcado10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ahorcado10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ahorcado6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ahorcado6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,11 +148,17 @@
   <data name="chess1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chess1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ahorcado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ahorcado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ahorcado4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ahorcado4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -162,6 +168,9 @@
   </data>
   <data name="Snake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Snake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chess11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chess11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +196,8 @@
   <data name="ahorcado8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ahorcado8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ahorcado9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ahorcado9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rompecabezas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rompecabezas2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ae508467-2673-43d5-9fb9-53570ac3a51d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ae508467-2673-43d5-9fb9-53570ac3a51d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,11 +208,17 @@
   <data name="chess" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chess.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tetris" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tetris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ahorcado9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ahorcado9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ahorcado10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ahorcado10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PingPong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PingPong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inicio (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inicio (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="finJuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\finJuego;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +229,7 @@
   <data name="descarga (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\descarga (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rompecabezas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rompecabezas2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1) (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1) (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

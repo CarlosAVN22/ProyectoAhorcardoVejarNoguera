@@ -183,6 +183,36 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_7_abr_2025__11_29_17_p_m___1_ {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_7_abr_2025__11_29_17_p_m___1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_7_abr_2025__11_29_17_p_m___1___3_ {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 7 abr 2025, 11_29_17 p.m. (1) (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chess {
             get {
                 object obj = ResourceManager.GetObject("chess", resourceCulture);
@@ -276,6 +306,26 @@ namespace ProyectoAhorcardoVejarNoguera.Properties {
         internal static System.Drawing.Bitmap fondo {
             get {
                 object obj = ResourceManager.GetObject("fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("fondo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inicio__1_ {
+            get {
+                object obj = ResourceManager.GetObject("inicio (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

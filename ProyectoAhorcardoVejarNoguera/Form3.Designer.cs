@@ -11,14 +11,7 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+       
 
         #region Windows Form Designer generated code
 
@@ -28,113 +21,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnInicioSesion = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.btnRegistrarse = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(272, 31);
-            this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.label1.Size = new System.Drawing.Size(301, 40);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Escoger entre las siguientes opciones:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(151, 181);
-            this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(30, 30, 30, 30);
-            this.label2.Size = new System.Drawing.Size(159, 80);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Inicio Sesion";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(338, 459);
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(599, 489);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(171, 48);
+            this.btnSalir.Size = new System.Drawing.Size(148, 38);
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir ";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnSalir.MouseEnter += new System.EventHandler(this.btnSalir_MouseEnter);
+            this.btnSalir.MouseLeave += new System.EventHandler(this.btnSalir_MouseLeave);
             // 
             // btnInicioSesion
             // 
             this.btnInicioSesion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnInicioSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicioSesion.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnInicioSesion.Location = new System.Drawing.Point(182, 279);
+            this.btnInicioSesion.Location = new System.Drawing.Point(599, 366);
             this.btnInicioSesion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnInicioSesion.Name = "btnInicioSesion";
-            this.btnInicioSesion.Size = new System.Drawing.Size(86, 54);
+            this.btnInicioSesion.Size = new System.Drawing.Size(148, 43);
             this.btnInicioSesion.TabIndex = 7;
-            this.btnInicioSesion.Text = "Entrar";
+            this.btnInicioSesion.Text = "Iniciar Sesion";
             this.btnInicioSesion.UseVisualStyleBackColor = false;
             this.btnInicioSesion.Click += new System.EventHandler(this.btnInicioSesion_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(537, 181);
-            this.label3.Name = "label3";
-            this.label3.Padding = new System.Windows.Forms.Padding(30);
-            this.label3.Size = new System.Drawing.Size(151, 80);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Registrarse";
+            this.btnInicioSesion.MouseEnter += new System.EventHandler(this.btnInicioSesion_MouseEnter);
+            this.btnInicioSesion.MouseLeave += new System.EventHandler(this.btnInicioSesion_MouseLeave);
             // 
             // btnRegistrarse
             // 
             this.btnRegistrarse.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnRegistrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarse.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnRegistrarse.Location = new System.Drawing.Point(574, 278);
+            this.btnRegistrarse.Location = new System.Drawing.Point(599, 427);
+            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(87, 55);
+            this.btnRegistrarse.Size = new System.Drawing.Size(148, 44);
             this.btnRegistrarse.TabIndex = 9;
-            this.btnRegistrarse.Text = "Entrar";
+            this.btnRegistrarse.Text = "Registrarse";
             this.btnRegistrarse.UseVisualStyleBackColor = false;
             this.btnRegistrarse.Click += new System.EventHandler(this.btnRegistrarse_Click);
+            this.btnRegistrarse.MouseEnter += new System.EventHandler(this.btnRegistrarse_MouseEnter);
+            this.btnRegistrarse.MouseLeave += new System.EventHandler(this.btnRegistrarse_MouseLeave);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.inicio__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(552, 105);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(219, 219);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.ae508467_2673_43d5_9fb9_53570ac3a51d;
-            this.ClientSize = new System.Drawing.Size(907, 519);
+            this.BackgroundImage = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.fondo__1_;
+            this.ClientSize = new System.Drawing.Size(991, 620);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegistrarse);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnInicioSesion);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Form3";
+            this.Text = "Devs Console Games";
             this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnInicioSesion;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnRegistrarse;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -320,5 +320,20 @@
   <ItemGroup>
     <None Include="Resources\Rompecabezas2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 7 abr 2025, 11_29_17 p.m. %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 7 abr 2025, 11_29_17 p.m. %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 7 abr 2025, 11_29_17 p.m. %281%29 %283%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
