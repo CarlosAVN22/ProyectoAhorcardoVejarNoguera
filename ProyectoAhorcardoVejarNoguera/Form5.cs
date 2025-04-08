@@ -78,7 +78,9 @@ namespace ProyectoAhorcardoVejarNoguera
 
         private void PicMonopoly_Click(object sender, EventArgs e)
         {
-
+            Interfaz_Monopoy interfaz_Monopoy = new Interfaz_Monopoy();
+            interfaz_Monopoy.Show();
+            this.Hide();
         }
 
         private void PicSudoku_Click(object sender, EventArgs e)
@@ -92,6 +94,20 @@ namespace ProyectoAhorcardoVejarNoguera
         {
             Tetris tetris = new Tetris();
             tetris.Show();
+            this.Hide();
+        }
+
+        private void PicSnake_Click(object sender, EventArgs e)
+        {
+            Serpiente serpiente = new Serpiente();
+            serpiente.Show();
+            this.Hide();
+        }
+
+        private void PicUno_Click(object sender, EventArgs e)
+        {
+            Uno_Interfaz uno_Interfaz = new Uno_Interfaz();
+            uno_Interfaz.Show();
             this.Hide();
         }
     }

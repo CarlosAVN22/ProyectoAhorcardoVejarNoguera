@@ -66,10 +66,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(468, 7);
+            this.label1.Location = new System.Drawing.Point(526, 9);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(18, 16, 18, 16);
-            this.label1.Size = new System.Drawing.Size(153, 59);
+            this.label1.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.label1.Size = new System.Drawing.Size(173, 72);
             this.label1.TabIndex = 0;
             this.label1.Text = "Juegos ";
             // 
@@ -77,10 +77,10 @@
             // 
             this.picAhorcado.BackColor = System.Drawing.Color.Transparent;
             this.picAhorcado.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Ahorcado;
-            this.picAhorcado.Location = new System.Drawing.Point(44, 81);
+            this.picAhorcado.Location = new System.Drawing.Point(50, 101);
             this.picAhorcado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAhorcado.Name = "picAhorcado";
-            this.picAhorcado.Size = new System.Drawing.Size(133, 120);
+            this.picAhorcado.Size = new System.Drawing.Size(150, 150);
             this.picAhorcado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAhorcado.TabIndex = 1;
             this.picAhorcado.TabStop = false;
@@ -90,10 +90,10 @@
             // 
             this.PicChess.BackColor = System.Drawing.Color.Transparent;
             this.PicChess.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.chess11;
-            this.PicChess.Location = new System.Drawing.Point(262, 81);
+            this.PicChess.Location = new System.Drawing.Point(295, 101);
             this.PicChess.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicChess.Name = "PicChess";
-            this.PicChess.Size = new System.Drawing.Size(133, 120);
+            this.PicChess.Size = new System.Drawing.Size(150, 150);
             this.PicChess.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicChess.TabIndex = 2;
             this.PicChess.TabStop = false;
@@ -103,22 +103,23 @@
             // 
             this.PicSnake.BackColor = System.Drawing.Color.Transparent;
             this.PicSnake.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Snake;
-            this.PicSnake.Location = new System.Drawing.Point(473, 81);
+            this.PicSnake.Location = new System.Drawing.Point(532, 101);
             this.PicSnake.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicSnake.Name = "PicSnake";
-            this.PicSnake.Size = new System.Drawing.Size(133, 120);
+            this.PicSnake.Size = new System.Drawing.Size(150, 150);
             this.PicSnake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicSnake.TabIndex = 3;
             this.PicSnake.TabStop = false;
+            this.PicSnake.Click += new System.EventHandler(this.PicSnake_Click);
             // 
             // PicMonopoly
             // 
             this.PicMonopoly.BackColor = System.Drawing.Color.Transparent;
             this.PicMonopoly.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.monopoly;
-            this.PicMonopoly.Location = new System.Drawing.Point(676, 81);
+            this.PicMonopoly.Location = new System.Drawing.Point(760, 101);
             this.PicMonopoly.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicMonopoly.Name = "PicMonopoly";
-            this.PicMonopoly.Size = new System.Drawing.Size(133, 120);
+            this.PicMonopoly.Size = new System.Drawing.Size(150, 150);
             this.PicMonopoly.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicMonopoly.TabIndex = 4;
             this.PicMonopoly.TabStop = false;
@@ -128,20 +129,21 @@
             // 
             this.PicUno.BackColor = System.Drawing.Color.Transparent;
             this.PicUno.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Uno;
-            this.PicUno.Location = new System.Drawing.Point(860, 81);
+            this.PicUno.Location = new System.Drawing.Point(968, 101);
             this.PicUno.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicUno.Name = "PicUno";
-            this.PicUno.Size = new System.Drawing.Size(133, 120);
+            this.PicUno.Size = new System.Drawing.Size(150, 150);
             this.PicUno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicUno.TabIndex = 5;
             this.PicUno.TabStop = false;
+            this.PicUno.Click += new System.EventHandler(this.PicUno_Click);
             // 
             // btnRegresarLogin
             // 
-            this.btnRegresarLogin.Location = new System.Drawing.Point(905, 415);
+            this.btnRegresarLogin.Location = new System.Drawing.Point(1018, 519);
             this.btnRegresarLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegresarLogin.Name = "btnRegresarLogin";
-            this.btnRegresarLogin.Size = new System.Drawing.Size(116, 38);
+            this.btnRegresarLogin.Size = new System.Drawing.Size(130, 48);
             this.btnRegresarLogin.TabIndex = 6;
             this.btnRegresarLogin.Text = "Regresar";
             this.btnRegresarLogin.UseVisualStyleBackColor = true;
@@ -151,9 +153,10 @@
             // 
             this.PicCartas.BackColor = System.Drawing.Color.Transparent;
             this.PicCartas.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Poker;
-            this.PicCartas.Location = new System.Drawing.Point(44, 240);
+            this.PicCartas.Location = new System.Drawing.Point(50, 300);
+            this.PicCartas.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PicCartas.Name = "PicCartas";
-            this.PicCartas.Size = new System.Drawing.Size(133, 120);
+            this.PicCartas.Size = new System.Drawing.Size(150, 150);
             this.PicCartas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicCartas.TabIndex = 7;
             this.PicCartas.TabStop = false;
@@ -163,9 +166,10 @@
             // 
             this.PicPingPong.BackColor = System.Drawing.Color.Transparent;
             this.PicPingPong.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.PingPong;
-            this.PicPingPong.Location = new System.Drawing.Point(262, 240);
+            this.PicPingPong.Location = new System.Drawing.Point(295, 300);
+            this.PicPingPong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PicPingPong.Name = "PicPingPong";
-            this.PicPingPong.Size = new System.Drawing.Size(133, 120);
+            this.PicPingPong.Size = new System.Drawing.Size(150, 150);
             this.PicPingPong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicPingPong.TabIndex = 8;
             this.PicPingPong.TabStop = false;
@@ -175,10 +179,10 @@
             // 
             this.PicTetris.BackColor = System.Drawing.Color.Transparent;
             this.PicTetris.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.tetris;
-            this.PicTetris.Location = new System.Drawing.Point(473, 240);
+            this.PicTetris.Location = new System.Drawing.Point(532, 300);
             this.PicTetris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicTetris.Name = "PicTetris";
-            this.PicTetris.Size = new System.Drawing.Size(133, 120);
+            this.PicTetris.Size = new System.Drawing.Size(150, 150);
             this.PicTetris.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicTetris.TabIndex = 9;
             this.PicTetris.TabStop = false;
@@ -188,10 +192,10 @@
             // 
             this.PicSudoku.BackColor = System.Drawing.Color.Transparent;
             this.PicSudoku.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Sudoku;
-            this.PicSudoku.Location = new System.Drawing.Point(676, 240);
+            this.PicSudoku.Location = new System.Drawing.Point(760, 300);
             this.PicSudoku.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicSudoku.Name = "PicSudoku";
-            this.PicSudoku.Size = new System.Drawing.Size(133, 120);
+            this.PicSudoku.Size = new System.Drawing.Size(150, 150);
             this.PicSudoku.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicSudoku.TabIndex = 10;
             this.PicSudoku.TabStop = false;
@@ -201,10 +205,10 @@
             // 
             this.PicRompecabezas.BackColor = System.Drawing.Color.Transparent;
             this.PicRompecabezas.Image = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.Rompecabezas2;
-            this.PicRompecabezas.Location = new System.Drawing.Point(860, 240);
+            this.PicRompecabezas.Location = new System.Drawing.Point(968, 300);
             this.PicRompecabezas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PicRompecabezas.Name = "PicRompecabezas";
-            this.PicRompecabezas.Size = new System.Drawing.Size(133, 120);
+            this.PicRompecabezas.Size = new System.Drawing.Size(150, 150);
             this.PicRompecabezas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicRompecabezas.TabIndex = 11;
             this.PicRompecabezas.TabStop = false;
@@ -215,9 +219,9 @@
             this.AhorcadoLabel.BackColor = System.Drawing.Color.Transparent;
             this.AhorcadoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AhorcadoLabel.ForeColor = System.Drawing.Color.Snow;
-            this.AhorcadoLabel.Location = new System.Drawing.Point(56, 210);
+            this.AhorcadoLabel.Location = new System.Drawing.Point(63, 262);
             this.AhorcadoLabel.Name = "AhorcadoLabel";
-            this.AhorcadoLabel.Size = new System.Drawing.Size(107, 24);
+            this.AhorcadoLabel.Size = new System.Drawing.Size(120, 30);
             this.AhorcadoLabel.TabIndex = 12;
             this.AhorcadoLabel.Text = "Ahorcado";
             this.AhorcadoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -227,9 +231,9 @@
             this.ChessLabel.BackColor = System.Drawing.Color.Transparent;
             this.ChessLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChessLabel.ForeColor = System.Drawing.Color.Snow;
-            this.ChessLabel.Location = new System.Drawing.Point(276, 210);
+            this.ChessLabel.Location = new System.Drawing.Point(310, 262);
             this.ChessLabel.Name = "ChessLabel";
-            this.ChessLabel.Size = new System.Drawing.Size(107, 24);
+            this.ChessLabel.Size = new System.Drawing.Size(120, 30);
             this.ChessLabel.TabIndex = 13;
             this.ChessLabel.Text = "Ajedrez";
             this.ChessLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -239,9 +243,9 @@
             this.SnakeLabel.BackColor = System.Drawing.Color.Transparent;
             this.SnakeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SnakeLabel.ForeColor = System.Drawing.Color.Snow;
-            this.SnakeLabel.Location = new System.Drawing.Point(484, 210);
+            this.SnakeLabel.Location = new System.Drawing.Point(544, 262);
             this.SnakeLabel.Name = "SnakeLabel";
-            this.SnakeLabel.Size = new System.Drawing.Size(107, 24);
+            this.SnakeLabel.Size = new System.Drawing.Size(120, 30);
             this.SnakeLabel.TabIndex = 14;
             this.SnakeLabel.Text = "Snake";
             this.SnakeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -251,9 +255,9 @@
             this.MonopolyLabel.BackColor = System.Drawing.Color.Transparent;
             this.MonopolyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MonopolyLabel.ForeColor = System.Drawing.Color.Snow;
-            this.MonopolyLabel.Location = new System.Drawing.Point(690, 210);
+            this.MonopolyLabel.Location = new System.Drawing.Point(776, 262);
             this.MonopolyLabel.Name = "MonopolyLabel";
-            this.MonopolyLabel.Size = new System.Drawing.Size(107, 24);
+            this.MonopolyLabel.Size = new System.Drawing.Size(120, 30);
             this.MonopolyLabel.TabIndex = 15;
             this.MonopolyLabel.Text = "Monopoly";
             this.MonopolyLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -263,9 +267,9 @@
             this.UnoLabel.BackColor = System.Drawing.Color.Transparent;
             this.UnoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UnoLabel.ForeColor = System.Drawing.Color.Snow;
-            this.UnoLabel.Location = new System.Drawing.Point(875, 210);
+            this.UnoLabel.Location = new System.Drawing.Point(984, 262);
             this.UnoLabel.Name = "UnoLabel";
-            this.UnoLabel.Size = new System.Drawing.Size(107, 24);
+            this.UnoLabel.Size = new System.Drawing.Size(120, 30);
             this.UnoLabel.TabIndex = 16;
             this.UnoLabel.Text = "UNO";
             this.UnoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -275,9 +279,9 @@
             this.PokerLabel.BackColor = System.Drawing.Color.Transparent;
             this.PokerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PokerLabel.ForeColor = System.Drawing.Color.Snow;
-            this.PokerLabel.Location = new System.Drawing.Point(56, 372);
+            this.PokerLabel.Location = new System.Drawing.Point(63, 465);
             this.PokerLabel.Name = "PokerLabel";
-            this.PokerLabel.Size = new System.Drawing.Size(107, 24);
+            this.PokerLabel.Size = new System.Drawing.Size(120, 30);
             this.PokerLabel.TabIndex = 17;
             this.PokerLabel.Text = "Poker";
             this.PokerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -287,9 +291,9 @@
             this.PingPongLabel.BackColor = System.Drawing.Color.Transparent;
             this.PingPongLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PingPongLabel.ForeColor = System.Drawing.Color.Snow;
-            this.PingPongLabel.Location = new System.Drawing.Point(271, 372);
+            this.PingPongLabel.Location = new System.Drawing.Point(305, 465);
             this.PingPongLabel.Name = "PingPongLabel";
-            this.PingPongLabel.Size = new System.Drawing.Size(120, 24);
+            this.PingPongLabel.Size = new System.Drawing.Size(135, 30);
             this.PingPongLabel.TabIndex = 18;
             this.PingPongLabel.Text = "Ping Pong";
             this.PingPongLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -299,9 +303,9 @@
             this.TetrisLabel.BackColor = System.Drawing.Color.Transparent;
             this.TetrisLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TetrisLabel.ForeColor = System.Drawing.Color.Snow;
-            this.TetrisLabel.Location = new System.Drawing.Point(484, 372);
+            this.TetrisLabel.Location = new System.Drawing.Point(544, 465);
             this.TetrisLabel.Name = "TetrisLabel";
-            this.TetrisLabel.Size = new System.Drawing.Size(107, 24);
+            this.TetrisLabel.Size = new System.Drawing.Size(120, 30);
             this.TetrisLabel.TabIndex = 19;
             this.TetrisLabel.Text = "Tetris";
             this.TetrisLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -311,9 +315,9 @@
             this.SudokuLabel.BackColor = System.Drawing.Color.Transparent;
             this.SudokuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SudokuLabel.ForeColor = System.Drawing.Color.Snow;
-            this.SudokuLabel.Location = new System.Drawing.Point(690, 372);
+            this.SudokuLabel.Location = new System.Drawing.Point(776, 465);
             this.SudokuLabel.Name = "SudokuLabel";
-            this.SudokuLabel.Size = new System.Drawing.Size(107, 24);
+            this.SudokuLabel.Size = new System.Drawing.Size(120, 30);
             this.SudokuLabel.TabIndex = 20;
             this.SudokuLabel.Text = "Sudoku";
             this.SudokuLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -323,19 +327,19 @@
             this.RompecabezasLabel.BackColor = System.Drawing.Color.Transparent;
             this.RompecabezasLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RompecabezasLabel.ForeColor = System.Drawing.Color.Snow;
-            this.RompecabezasLabel.Location = new System.Drawing.Point(849, 372);
+            this.RompecabezasLabel.Location = new System.Drawing.Point(955, 465);
             this.RompecabezasLabel.Name = "RompecabezasLabel";
-            this.RompecabezasLabel.Size = new System.Drawing.Size(163, 24);
+            this.RompecabezasLabel.Size = new System.Drawing.Size(183, 30);
             this.RompecabezasLabel.TabIndex = 21;
             this.RompecabezasLabel.Text = "Rompecabezas";
             this.RompecabezasLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoAhorcardoVejarNoguera.Properties.Resources.ae508467_2673_43d5_9fb9_53570ac3a51d;
-            this.ClientSize = new System.Drawing.Size(1044, 470);
+            this.ClientSize = new System.Drawing.Size(1174, 588);
             this.Controls.Add(this.RompecabezasLabel);
             this.Controls.Add(this.SudokuLabel);
             this.Controls.Add(this.TetrisLabel);

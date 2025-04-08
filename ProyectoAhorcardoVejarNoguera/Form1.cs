@@ -7,6 +7,8 @@ using System.Windows.Forms.PropertyGridInternal;
 
 namespace ProyectoAhorcardoVejarNoguera
 {
+    
+
     public partial class Form1 : Form
     {
         char[] palabrasAdivinadas;
@@ -251,12 +253,7 @@ namespace ProyectoAhorcardoVejarNoguera
         
 
 
-        private void AbrirForm2()
-        {
-           
-            Form2 form2 = new Form2();
-            form2.Show(); 
-        }
+        
 
         private void btnInicioJuegoo_Click(object sender, EventArgs e)
         {
@@ -312,11 +309,6 @@ namespace ProyectoAhorcardoVejarNoguera
             this.Hide();
         }
 
-        private void btnAbrirForm2_Click_1(object sender, EventArgs e)
-        {
-            Form2 form2 = new Form2();
-            form2.Show();
-            this.Hide();
-        }
+       
     }
 }

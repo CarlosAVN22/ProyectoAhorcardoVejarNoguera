@@ -94,6 +94,12 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaz_Monopoy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz_Monopoy.Designer.cs">
+      <DependentUpon>Interfaz_Monopoy.cs</DependentUpon>
+    </Compile>
     <Compile Include="pingpong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,12 @@
     <Compile Include="Rompecabeza.Designer.cs">
       <DependentUpon>Rompecabeza.cs</DependentUpon>
     </Compile>
+    <Compile Include="Serpiente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serpiente.Designer.cs">
+      <DependentUpon>Serpiente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sudoku.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +131,12 @@
     </Compile>
     <Compile Include="Tetris.Designer.cs">
       <DependentUpon>Tetris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uno_Interfaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uno_Interfaz.Designer.cs">
+      <DependentUpon>Uno_Interfaz.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Ajedrez.resx">
       <DependentUpon>Ajedrez.cs</DependentUpon>
@@ -144,6 +162,9 @@
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz_Monopoy.resx">
+      <DependentUpon>Interfaz_Monopoy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="pingpong.resx">
       <DependentUpon>pingpong.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,11 +181,17 @@
     <EmbeddedResource Include="Rompecabeza.resx">
       <DependentUpon>Rompecabeza.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Serpiente.resx">
+      <DependentUpon>Serpiente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sudoku.resx">
       <DependentUpon>Sudoku.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tetris.resx">
       <DependentUpon>Tetris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uno_Interfaz.resx">
+      <DependentUpon>Uno_Interfaz.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

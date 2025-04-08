@@ -127,7 +127,7 @@
             this.btnAbrirForm2.TabIndex = 11;
             this.btnAbrirForm2.Text = "Reproducir video";
             this.btnAbrirForm2.UseVisualStyleBackColor = true;
-            this.btnAbrirForm2.Click += new System.EventHandler(this.btnAbrirForm2_Click_1);
+            
             // 
             // btnFinDelJuego
             // 
