@@ -68,5 +68,31 @@ namespace ProyectoAhorcardoVejarNoguera
             ajedrez.Show();
             this.Hide();
         }
+
+        private void PicRompecabezas_Click(object sender, EventArgs e)
+        {
+            Rompecabeza rompecabeza = new Rompecabeza();
+            rompecabeza.Show();
+            this.Hide();
+        }
+
+        private void PicMonopoly_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PicSudoku_Click(object sender, EventArgs e)
+        {
+            Sudoku sudoku = new Sudoku();
+            sudoku.Show();
+            this.Hide();
+        }
+
+        private void PicTetris_Click(object sender, EventArgs e)
+        {
+            Tetris tetris = new Tetris();
+            tetris.Show();
+            this.Hide();
+        }
     }
 }

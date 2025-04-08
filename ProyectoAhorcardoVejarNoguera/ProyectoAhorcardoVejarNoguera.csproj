@@ -102,6 +102,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rompecabeza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rompecabeza.Designer.cs">
+      <DependentUpon>Rompecabeza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sudoku.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sudoku.Designer.cs">
+      <DependentUpon>Sudoku.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tetris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tetris.Designer.cs">
+      <DependentUpon>Tetris.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Ajedrez.resx">
       <DependentUpon>Ajedrez.cs</DependentUpon>
     </EmbeddedResource>
@@ -139,6 +157,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Rompecabeza.resx">
+      <DependentUpon>Rompecabeza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sudoku.resx">
+      <DependentUpon>Sudoku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tetris.resx">
+      <DependentUpon>Tetris.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
